@@ -1,0 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+
+body {
+  margin: 0;
+  font-family: 'Avenir LT Std', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
