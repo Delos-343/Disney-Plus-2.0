@@ -1,7 +1,7 @@
-import { React, useEffect } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-{/*
+/*
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { auth, provider } from "../firebase";
@@ -10,13 +10,13 @@ import {
   selectUserPhoto,
   setUserLoginDetails,
   setSignOutState,
-} from "../features/user/userSlice"; */}
+} from "../features/user/userSlice"; */
 
 
 
 const Header = (props) => {
 
-  {/* const dispatch = useDispatch();
+  /* const dispatch = useDispatch();
   const history = useHistory();
   const userName = useSelector(selectUserName);
   const userPhoto = useSelector(selectUserPhoto);
@@ -59,7 +59,7 @@ const Header = (props) => {
         photo: user.photoURL,
       })
     );
-  }; */}
+  }; */
 
 
   return (
@@ -201,9 +201,14 @@ const NavMenu = styled.div`
         }
         }
     }
-    /* @media (max-width: 768px) {
+    @media (max-width: 768px) {
+
         display: none;
-    } */
+
+        a, span {
+          visibility: hidden;
+        }
+    }
 `;
 
 const Login = styled.a`
